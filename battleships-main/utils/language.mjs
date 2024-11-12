@@ -1,0 +1,40 @@
+const DICTIONARY = {
+    en: {
+        START_GAME: "Start Game",
+        EXIT_GAME: "Exit Game",
+        SELECT_LANGUAGE: "Select Language: 1. English, 2. Norwegian",
+        SHIP_PLACEMENT: "Ship Placement",
+        PLAYER_ONE_READY: "Player 1, get ready. Player 2, look away.",
+        PLAYER_TWO_READY: "Player 2, get ready. Player 1, look away.",
+        CONTROLS: "Controls:",
+        ARROW_KEYS: "Arrow keys: Move cursor",
+        ROTATE_SHIP: "R: Rotate ship",
+        PLACE_SHIP: "Enter: Place ship",
+        SHIPS_TO_PLACE: "Ships to place:",
+        CARRIER: "Carrier (5 spaces)",
+        BATTLESHIP: "Battleship (4 spaces)",
+        CRUISER: "Cruiser (3 spaces)",
+        SUBMARINE: "Submarine (3 spaces)",
+        DESTROYER: "Destroyer (2 spaces)",
+    },
+    no: {
+        START_GAME: "Start Spill",
+        EXIT_GAME: "Avslutt Spill",
+        SELECT_LANGUAGE: "Velg Språk: 1. Engelsk, 2. Norsk",
+        SHIP_PLACEMENT: "Skipplassering",
+        PLAYER_ONE_READY: "Spiller 1, gjør deg klar. Spiller 2, se bort.",
+        PLAYER_TWO_READY: "Spiller 2, gjør deg klar. Spiller 1, se bort.",
+        CONTROLS: "Kontroller:",
+        ARROW_KEYS: "Piltaster: Flytt markør",
+        ROTATE_SHIP: "R: Roter skip",
+        PLACE_SHIP: "Enter: Plasser skip",
+        SHIPS_TO_PLACE: "Skip å plassere:",
+        CARRIER: "Hangarskip (5 plasser)",
+        BATTLESHIP: "Slagskip (4 plasser)",
+        CRUISER: "Krysser (3 plasser)",
+        SUBMARINE: "Ubåt (3 plasser)",
+        DESTROYER: "Destroyer (2 plasser)",
+    }
+};
+
+export default DICTIONARY;
